@@ -1,0 +1,19 @@
+.home{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 2rem;
+    grid-template-areas: ". . form form form form . ."
+                         ". . resume resume resume resume . .";
+    padding-top: 5rem;
+}
+
+.form-cotizador{
+    grid-area: form;
+}
+
+.resume{
+    // display: none;
+    grid-area: resume;
+    text-align: center;
+}
